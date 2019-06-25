@@ -57,7 +57,7 @@ cd dog-project
 
 	- __Linux__ or __Mac__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`): 
 	```
-	conda create --name dog-project python=3.5
+	conda create --name dog-project python=3.6
 	source activate dog-project
 	pip install -r requirements/requirements.txt
 	```
@@ -67,10 +67,12 @@ cd dog-project
 	```
 	- __Windows__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`):  
 	```
-	conda create --name dog-project python=3.5
+	conda create --name dog-project python=3.6
 	activate dog-project
 	pip install -r requirements/requirements.txt
 	```
+	Note: 
+	- requirements includes the locally used versions for python=3.6; original requirements project files have been created for python=3.5  
 	
 8. (Optional) **If you are using AWS**, install Tensorflow.
 ```
